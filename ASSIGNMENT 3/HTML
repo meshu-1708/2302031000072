@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThoughtHaven</title>
+    <style>
+        body {
+            background-color: lavender;
+            font-family: cursive;
+            text-align: center;
+        }
+        .container {
+            width: 60%;
+            margin: auto;
+            padding: 20px;
+            background-color: #f0d6ff;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .login-btn {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            background-color: #d1a3ff;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: #b583d1;
+        }
+        img {
+            width: 150px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome To</h1>
+        <h2>ThoughtHaven</h2>
+        <img src="book_pen_icon.png" alt="Book and Pen Icon"> <!-- Replace with actual image path -->
+        <br>
+        <button class="login-btn">Login</button>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThoughtHaven Login</title>
+    <style>
+        body {
+            background-color: #D8BFD8;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #E6C7EE;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #C8A2C8;
+            padding: 10px;
+            font-size: 18px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .login-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .login-form {
+            width: 50%;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .input-box {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        .login-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #B57EDC;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .login-btn:hover {
+            background-color: #9B6FC6;
+        }
+        .social-login {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .social-login img {
+            width: 40px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .signup-text {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .right-section {
+            text-align: center;
+            width: 40%;
+        }
+        .right-section img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Magazine</a>
+        <a href="#">Subscription</a>
+        <a href="#">Journals</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <div class="container">
+        <div class="login-section">
+            <div class="login-form">
+                <h1>Welcome!</h1>
+                <a href="#" style="color: blue;">Login</a> |
+                <a href="#">Sign Up</a>
+                <form>
+                    <label>Username</label>
+                    <input type="text" class="input-box" placeholder="Enter your username">
+                    
+                    <label>Password</label>
+                    <input type="password" class="input-box" placeholder="Enter your password">
+                    
+                    <div style="text-align: right;">
+                        <a href="#" style="color: blue;">Forgot Password?</a>
+                    </div>
+                    
+                    <button class="login-btn">Login</button>
+                </form>
+                <div class="social-login">
+                    <p>or</p>
+                    <img src="google-icon.png" alt="Google">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </div>
+                <div class="signup-text">
+                    Don't have an account? <a href="#" style="color: blue;">Sign Up</a>
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="book_pen_icon.png" alt="Book and Pen Icon"> <!-- Replace with actual image path -->
+                <h2>ThoughtHaven</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThoughtHaven Sign Up</title>
+    <style>
+        body {
+            background-color: #D8BFD8;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #E6C7EE;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #C8A2C8;
+            padding: 10px;
+            font-size: 18px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .signup-section {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .signup-form {
+            width: 50%;
+        }
+        h1 {
+            font-size: 36px;
+        }
+        .input-box {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: #D8BFD8;
+            color: black;
+        }
+        .signup-btn {
+            width: 100%;
+            padding: 10px;
+            font-size: 18px;
+            background-color: #B57EDC;
+            border: none;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .signup-btn:hover {
+            background-color: #9B6FC6;
+        }
+        .social-signup {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .social-signup img {
+            width: 40px;
+            margin: 5px;
+            cursor: pointer;
+        }
+        .login-text {
+            text-align: center;
+            margin-top: 10px;
+        }
+        .right-section {
+            text-align: center;
+            width: 40%;
+        }
+        .right-section img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Magazine</a>
+        <a href="#">Subscription</a>
+        <a href="#">Journals</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <div class="container">
+        <div class="signup-section">
+            <div class="signup-form">
+                <h1>Welcome!</h1>
+                <a href="#" style="color: blue;">Login</a> |
+                <a href="#" style="color: purple;">Sign Up</a>
+                <form>
+                    <label>Full Name</label>
+                    <input type="text" class="input-box" placeholder="Enter your full name">
+                    
+                    <label>Email</label>
+                    <input type="email" class="input-box" placeholder="Enter your email">
+                    
+                    <label>Password</label>
+                    <input type="password" class="input-box" placeholder="Enter your password">
+                    
+                    <label>Confirm Password</label>
+                    <input type="password" class="input-box" placeholder="Confirm your password">
+                    
+                    <button class="signup-btn">Sign Up</button>
+                </form>
+                <div class="social-signup">
+                    <p>or</p>
+                    <img src="google-icon.png" alt="Google">
+                    <img src="facebook-icon.png" alt="Facebook">
+                </div>
+            </div>
+            <div class="right-section">
+                <img src="book_pen_icon.png" alt="Book and Pen Icon"> <!-- Replace with actual image path -->
+                <h2>ThoughtHaven</h2>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThoughtHaven - Empower Your Mind</title>
+    <style>
+        body {
+            background-color: #D8BFD8;
+            font-family: 'Georgia', serif;
+            margin: 0;
+            padding: 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            background-color: #C8A2C8;
+            padding: 15px;
+            font-size: 18px;
+        }
+        .navbar a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            background-color: #E6C7EE;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+        h1 {
+            font-size: 32px;
+            font-weight: bold;
+        }
+        p {
+            text-align: left;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #C8A2C8;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+        .footer a {
+            margin: 0 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        .footer-icons {
+            margin-top: 10px;
+        }
+        .footer-icons img {
+            width: 30px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Magazine</a>
+        <a href="#">Subscription</a>
+        <a href="#">Journals</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <div class="container">
+        <h1>“Empower Your Mind. Start Your Healing Journey Today.”</h1>
+        <p><strong>Empowerment:</strong> This refers to giving someone the tools, confidence, and ability to take control of their own life. In the context of mental health, it means helping people understand their emotions, improve their mental resilience, and make positive changes in their lives.</p>
+
+        <p><strong>Mind:</strong> Refers to the mental aspect of health—thoughts, emotions, cognition, and self-awareness. The goal is to help individuals gain control over their thoughts and emotions rather than being controlled by them.</p>
+
+        <p><strong>Healing Journey:</strong> The idea of “healing” suggests a process of recovery or improvement. It’s not about being “fixed” instantly, but rather a path of gradual progress and growth. This part emphasizes that mental health and emotional healing take time, but starting the journey is a vital first step.</p>
+
+        <p><strong>Today:</strong> This creates a sense of urgency and motivation, encouraging people to take immediate action. It’s about not waiting for the “right time” but starting right now to make progress toward mental well-being.</p>
+
+        <p>Empowerment is a strong motivator. People often feel helpless when dealing with mental health challenges, and this phrase offers them control and agency over their own mental state.</p>
+
+        <ul>
+            <li>Healing suggests that no matter where someone is on their mental health journey, there is hope and a possibility for recovery and betterment.</li>
+            <li>The use of “today” provides immediacy and encourages the user to take action now, which can be critical in overcoming hesitation or procrastination.</li>
+        </ul>
+    </div>
+
+    <div class="footer">
+        <a href="#">About Us</a>
+        <a href="#">T & C</a>
+        <p>ThoughtHaven34@gmail.com</p>
+        <div class="footer-icons">
+            <img src="twitter-icon.png" alt="Twitter">
+            <img src="facebook-icon.png" alt="Facebook">
+            <img src="instagram-icon.png" alt="Instagram">
+        </div>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Magazine Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0b8d6;
+            text-align: center;
+        }
+        .nav {
+            background-color: #b49bc8;
+            padding: 10px;
+        }
+        .nav a {
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+        }
+        .magazine-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+        }
+        .magazine {
+            margin: 10px;
+            border: 2px solid #333;
+            padding: 10px;
+            background-color: white;
+        }
+        .magazine img {
+            width: 200px;
+            height: auto;
+        }
+        .footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #b49bc8;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Magazine</a>
+        <a href="#">Subscription</a>
+        <a href="#">Journals</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <h1>Magazine</h1>
+
+    <div class="magazine-container">
+        <div class="magazine">
+            <img src="https://asylummagazine.org/wp-content/uploads/2021/03/Asylum-281-cvr.jpg" alt="Magazine Cover">
+            <p>Asylum</p>
+        </div>
+        <div class="magazine">
+            <img src="https://www.mindsetmagazine.co.uk/wp-content/uploads/2023/03/Issue-10-img.jpg" alt="Magazine Cover">
+            <p>MindSet</p>
+        </div>
+        <div class="magazine">
+            <img src="https://images.squarespace-cdn.com/content/v1/58eeb29cdb29d6de1df8ac76/1552797778031-OSN6LBILJ0MH31HAY7R9/Winter-Spring%2B2019%2BMagazine%2BCover.jpg" alt="Magazine Cover">
+            <p>Mental Health California</p>
+        </div>
+        <div class="magazine">
+            <img src="https://files.magzter.com/resize/magazine/1445370465/1445889399/view/3.jpg" alt="Magazine Cover">
+            <p>Mental Fitness</p>
+        </div>
+        <div class="magazine">
+            <img src="https://149684388.v2.pressablecdn.com/wp-content/uploads/2022/12/happiful_issue70_cover-1654x2048.jpg" alt="Magazine Cover">
+            <p>Happiful</p>
+        </div>
+        <div class="magazine">
+            <img src="https://image.isu.pub/181129082118-67352024258c9e50e551f3b9e1c91ff7/jpg/page_1.jpg" alt="Magazine Cover">
+            <p>The Mental Health Issue</p>
+        </div>
+        <div class="magazine">
+            <img src="https://image.isu.pub/191231183331-3cab61e8a3822bba3cb3a13fcf56c0c4/jpg/page_1.jpg" alt="Magazine Cover">
+            <p>Grayson</p>
+        </div>
+        <div class="magazine">
+            <img src="https://images.squarespace-cdn.com/content/v1/58eeb29cdb29d6de1df8ac76/1524542622027-TU2J9PNP8M092646ISKS/Spring%2B2018%2BCover.jpg?format=1000w" alt="Magazine Cover">
+            <p>Mental Health California (Compton)</p>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact: ThoughtHaven34@gmail.com</p>
+        <p>Follow Us: 
+            <a href="#"><img src="facebook-icon.png" width="20"></a>
+            <a href="#"><img src="twitter-icon.png" width="20"></a>
+            <a href="#"><img src="instagram-icon.png" width="20"></a>
+        </p>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscription</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d0b8d6;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .nav {
+            background-color: #b49bc8;
+            padding: 15px;
+        }
+        .nav a {
+            margin: 15px;
+            text-decoration: none;
+            font-size: 18px;
+            color: black;
+            font-weight: bold;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+        }
+        .subscription-section {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .subscription-box {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            width: 40%;
+            text-align: center;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .subscription-box img {
+            width: 150px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .subscribe-btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ccc;
+            color: black;
+            font-size: 16px;
+            font-weight: bold;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .footer {
+            margin-top: 30px;
+            padding: 15px;
+            background-color: #b49bc8;
+            font-size: 16px;
+        }
+        .social-icons img {
+            width: 25px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="nav">
+        <a href="#">Home</a>
+        <a href="#">Magazine</a>
+        <a href="#">Subscription</a>
+        <a href="#">Journals</a>
+        <a href="#">Sign Up</a>
+    </div>
+
+    <h1>Subscription</h1>
+
+    <div class="container">
+        <div class="subscription-section">
+            <div class="subscription-box">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.in%2FSelf-Care-Planner-Journal-Physical-Achieve%2Fdp%2FB09R4QHCDW&psig=AOvVaw3aiPz-Y03_hrGirqFyeC7j&ust=1742140049614000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJDZq8u3jIwDFQAAAAAdAAAAABAE" alt="Self-Care Planner">
+                <h2>Self-Care Planner</h2>
+                <p><strong>A Self-Care Journal for Mental and Physical Health! Achieve Your Goals!</strong></p>
+                <p>Self-care isn’t about escaping life’s problems—it helps solve them. This journal guides you to set and achieve your goals while maintaining a healthy mind and body. Small and easy to carry.</p>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+
+            <div class="subscription-box">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpayalbooks.com%2Fproducts%2Fwellness-journal-by-shauna-reid-samone-amba&psig=AOvVaw1tiMNrGjV-uiOOtYOC5xcB&ust=1742140135761000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJD6ovS3jIwDFQAAAAAdAAAAABAE" alt="Wellness Journal">
+                <h2>Wellness Journal</h2>
+                <p><strong>By Shauna Reid Samone Amba</strong></p>
+                <p>Find your joy and make yourself a priority. This journal includes self-care tips, rituals, and space for your thoughts, goals, and reflections. Gentle prompts help bring wellness to the forefront.</p>
+                <button class="subscribe-btn">Subscribe</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>Contact: ThoughtHaven34@gmail.com</p>
+        <p class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </p>
+        <p><a href="#">About Us</a> | <a href="#">T & C</a></p>
+    </div>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Journals - ThoughtHaven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d1b7d3;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            background-color: #b39bb0;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        .journal-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .journal-item {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 300px;
+            text-align: center;
+        }
+
+        .journal-item img {
+            width: 100%;
+            border-radius: 5px;
+        }
+
+        .journal-item h3 {
+            font-size: 20px;
+            margin: 10px 0;
+        }
+
+        .journal-item p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .add-to-cart {
+            background: lightgray;
+            border: none;
+            padding: 10px 15px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #b39bb0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Subscription</a></li>
+                <li><a href="#">Journals</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Journals</h1>
+        <div class="journal-container">
+            <div class="journal-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultpens.com%2Fproducts%2Fmidori-journal-one-year&psig=AOvVaw3kmuavFr1ri-FaqJJIxElB&ust=1742142303524000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDoqP2_jIwDFQAAAAAdAAAAABAE" alt="Midori Journal">
+                <h3>Midori Journal One Year</h3>
+                <p><strong>Description:</strong> Perpetual 1-year diary from Midori. Tactile hardback book with silver embossing and a fabric page marker.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="journal-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.franklywearing.com%2Fd%2Fnotebook-dream-journal-watercolour-457593%3Fvariant_id%3D311&psig=AOvVaw33HJ5hwAUUR4gppw2E0ctX&ust=1742141254652000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCKCa84q8jIwDFQAAAAAdAAAAABAE" alt="Dream Journal">
+                <h3>Dream Journal - Watercolour<br>By <strong>Aakriti</strong></h3>
+                <p><strong>Description:</strong> A watercolor design dream journal.</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">T & C</a>
+        </div>
+        <p>ThoughtHaven34@gmail.com</p>
+        <div class="social-icons">
+            <img src="twitter.png" alt="Twitter">
+            <img src="facebook.png" alt="Facebook">
+            <img src="instagram.png" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cart - ThoughtHaven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d1b7d3;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            background-color: #b39bb0;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .cart-container {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .cart-item {
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .cart-item img {
+            width: 150px;
+            border-radius: 5px;
+        }
+
+        .cart-details {
+            flex: 1;
+        }
+
+        .cart-details h3 {
+            font-size: 22px;
+            margin: 0;
+        }
+
+        .cart-details p {
+            font-size: 14px;
+            color: #333;
+        }
+
+        .price {
+            font-size: 18px;
+            font-weight: bold;
+        }
+
+        .buy-button {
+            background: lightgray;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            font-weight: bold;
+            display: block;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #b39bb0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Subscription</a></li>
+                <li><a href="#">Journals</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>🛒 Cart</h1>
+        <div class="cart-container">
+            <div class="cart-item">
+                <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fcultpens.com%2Fproducts%2Fmidori-journal-one-year&psig=AOvVaw3kmuavFr1ri-FaqJJIxElB&ust=1742142303524000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCIDoqP2_jIwDFQAAAAAdAAAAABAE" alt="Midori Journal">
+                <div class="cart-details">
+                    <h3>Midori Journal One Year</h3>
+                    <p><strong>Description:</strong> Perpetual 1-year diary from Midori. Tactile hardback book with silver embossing and a fabric page marker.</p>
+                    <p class="price">$12</p>
+                    <button class="buy-button">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">T & C</a>
+        </div>
+        <p>ThoughtHaven34@gmail.com</p>
+        <div class="social-icons">
+            <img src="twitter.png" alt="Twitter">
+            <img src="facebook.png" alt="Facebook">
+            <img src="instagram.png" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - ThoughtHaven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d1b7d3;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            background-color: #b39bb0;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        main {
+            width: 80%;
+            margin: 20px auto;
+            text-align: left;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 36px;
+        }
+
+        .about-container {
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .about-container p {
+            font-size: 16px;
+            color: #333;
+        }
+
+        .about-container ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .about-container ul li {
+            font-size: 16px;
+            margin-bottom: 8px;
+        }
+
+        footer {
+            background-color: #b39bb0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 40px;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Subscription</a></li>
+                <li><a href="#">Journals</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>About Us</h1>
+        <div class="about-container">
+            <p>At ThoughtHaven, we believe in the power of words to heal, empower, and transform. Our mission is to provide a safe, supportive space where you can explore your thoughts, track your emotions, and cultivate mindfulness through journaling.</p>
+            
+            <h3>Why Journaling?</h3>
+            <p>Writing is more than just putting words on a page—it’s a tool for self-discovery, stress relief, and emotional well-being. Studies have shown that journaling can help manage anxiety, reduce stress, and improve overall mental clarity. Whether you're looking to process emotions, set goals, or simply reflect on your day, we’re here to guide you on your journey.</p>
+
+            <h3>What We Offer</h3>
+            <ul>
+                <li>📖 <strong>Privacy & Security</strong> – A safe, confidential space where your thoughts remain yours alone.</li>
+                <li>🌍 <strong>Community & Resources</strong> – Connect with others and access helpful mental health content.</li>
+            </ul>
+
+            <h3>Our Commitment</h3>
+            <p>We understand that mental health is a journey, not a destination. Our platform is designed to be your trusted companion, providing encouragement and support as you navigate life’s ups and downs. Your story matters. Your thoughts matter. And most importantly—you matter.</p>
+
+            <p>Start your journaling journey with us today. 💙</p>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">T & C</a>
+        </div>
+        <p>ThoughtHaven34@gmail.com</p>
+        <div class="social-icons">
+            <img src="twitter.png" alt="Twitter">
+            <img src="facebook.png" alt="Facebook">
+            <img src="instagram.png" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Terms & Conditions - ThoughtHaven</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d1b7d3;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        header {
+            display: flex;
+            justify-content: center;
+            background-color: #b39bb0;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-size: 18px;
+        }
+
+        main {
+            width: 70%;
+            margin: 20px auto;
+            text-align: left;
+        }
+
+        h1 {
+            font-size: 36px;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 24px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        footer {
+            background-color: #b39bb0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .footer-links a {
+            text-decoration: none;
+            color: black;
+            margin: 0 10px;
+        }
+
+        .social-icons img {
+            width: 30px;
+            margin: 0 5px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="ThoughtHaven Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Magazine</a></li>
+                <li><a href="#">Subscription</a></li>
+                <li><a href="#">Journals</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Terms & Condition</h1>
+        <p>
+            Welcome to ThoughtHaven, a mental health journaling platform designed to help users express their 
+            thoughts and emotions in a safe and secure environment. By using our website, you agree to the 
+            following Terms & Conditions. Please read them carefully before proceeding.
+        </p>
+
+        <h2>1. Acceptance of Terms</h2>
+        <p>
+            By accessing or using ThoughtHaven, you acknowledge that you have read, understood, and agreed to 
+            be bound by these Terms & Conditions. If you do not agree, you should discontinue use immediately.
+        </p>
+
+        <h2>2. Eligibility</h2>
+        <p>
+            You must be at least 18 years old or have parental/guardian consent to use this Service. By using 
+            ThoughtHaven, you confirm that you meet this requirement.
+        </p>
+
+        <h2>3. Privacy & Data Security</h2>
+        <p>
+            Your privacy is important to us. Our Privacy Policy outlines how we collect, use, and protect your 
+            personal data. By using our Service, you agree to the collection and use of your data as described 
+            in our Privacy Policy.
+        </p>
+
+        <h2>4. User Responsibilities</h2>
+        <ul>
+            <li>You are responsible for maintaining the confidentiality of your account and password.</li>
+            <li>You agree not to share, sell, or transfer your account to another person.</li>
+            <li>You must not use our Service to post or share harmful, offensive, illegal, or abusive content.</li>
+        </ul>
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">About Us</a>
+            <a href="#">T & C</a>
+        </div>
+        <p>ThoughtHaven34@gmail.com</p>
+        <div class="social-icons">
+            <img src="twitter.png" alt="Twitter">
+            <img src="facebook.png" alt="Facebook">
+            <img src="instagram.png" alt="Instagram">
+        </div>
+    </footer>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You</title>
+    <style>
+        body {
+            background-color: #d1b7d3;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .thank-you-container {
+            background: #c0a3c2;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+            width: 60%;
+            text-align: center;
+            border: 5px solid #a28aa1;
+        }
+
+        .thank-you-container img {
+            width: 150px;
+        }
+
+        h1 {
+            font-size: 36px;
+            color: black;
+            margin-top: 20px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="thank-you-container">
+        <img src="logo.png" alt="Open book with brain illustration">
+        <h1>Thank You For Visiting Us</h1>
+    </div>
+</body>
+</html>
